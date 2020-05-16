@@ -37,6 +37,13 @@
             th{
                 text-transform: uppercase; 
             }
+            @media only screen and (max-width:768px){
+                body{
+                width: 100%;
+            }
+            
+        }
+        
 
            
            

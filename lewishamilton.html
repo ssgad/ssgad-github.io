@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        #unordered,#header{
+            text-transform: uppercase;
+            margin: auto;
+                color: black;
+                font-size: 60px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
+            .list img{
+                display: block;
+                margin-left:auto;
+                margin-right:auto;
+                width: 50%;             
+            }
+            nav > ul {
+             
+             display: flex;
+             flex-direction: row;
+             justify-content: space-around;
+             font-weight: bold;
+             font-size: 1.5rem;
+             text-transform: uppercase;
+             color: black;
+             
+            @media (max-width: 650px){
+                .list{
+                    height: auto;
+                    max-width: 100%;
+                    position: relative;
+                }
+            }
+    </style>
+    <head>
+        <title>Lewis</title>
+    </head>
+    <header id="header">
+        <p>Formula 1</p>
+        <nav id="nav-bar">
+            <ul>
+                <li>
+                    <a class="nav-link" style="text-decoration: none" href="index.html">Main </a>
+                </li>
+                <li>
+                    <a class="nav-link" style="text-decoration: none" href="sebvettel.html">Vettel</a>
+                </li>
+                <li>
+                    <a class="nav-link" style="text-decoration: none" href="kimi.html">Kimi</a>
+                </li>
+                <li>
+                    <a class="nav-link" style="text-decoration: none" href="germangp2019.html">Best race</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <div id="unordered" class="list">
+        <p>About lewis hamilton</p>
+        <img src="lewis.jpg" alt="Lewis hamilton's photo"/>
+          <li>Full name: Lewis Carl Davidson Hamilton</li>
+          <li>British</li>
+          <li>DOB: 07 Jan 1985</li>
+          <li>Car number: 44</li>
+        
+    </div>
+    </body>
+</html>
