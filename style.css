@@ -1,6 +1,10 @@
 body,html{
     height: 100%;
+    margin: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.nav-bar{
+    margin: 0;
 }
 .logo{
     float: left;
@@ -14,6 +18,10 @@ body,html{
     text-decoration: none;
     text-transform: uppercase;
     list-style: none;
+    
+}
+.nav-list a{
+    padding: 5px;
 }
 .hero{
     background-image: url("hero-image.jpg") ;
@@ -21,6 +29,7 @@ body,html{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    margin-top: -53px;
 
 }
 .hero-title{
