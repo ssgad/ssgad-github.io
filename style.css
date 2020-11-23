@@ -2,6 +2,14 @@ body,html{
     height: 100%;
     margin: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.nav-nav,
+.border,
+.services,
+.port{
+    max-width: 960px;
+    margin: auto;
 }
 .nav-bar{
     margin: 0;
@@ -12,12 +20,12 @@ body,html{
     top: 0;
     width: 100%;
     background-color: antiquewhite;
-    transition-delay: 500ms;
+    transition-delay: 500ms ease;
   }
 
   /* js sticky nav bar ends */
 
-  
+  /* Nav bar */
 .logo,
 .logo-footer{
     float: left;
@@ -40,6 +48,7 @@ body,html{
     padding: 5px;
     text-decoration: solid;
 }
+/* Hero */
 .hero{
     background-image: url("hero-image.jpg") ;
     height:100%;
@@ -63,6 +72,14 @@ body,html{
   transform: translate(-50%, -50%);
   color: white; 
 }
+.hero-title h1{
+    font-size: 50px;
+}
+.hero-title h3{
+    font-size: 75px;
+}
+
+/* services */
 .services-h{
     text-align: center;
 }
@@ -77,6 +94,7 @@ body,html{
     padding: 10px;
     margin: 10px;;
 }
+/* projects/portfolio */
 .flexy{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -90,8 +108,9 @@ body,html{
     text-align: center;
     align-items: center;
     margin: 5px;
-    
 }
+/* Footer */
+
 .footer{
  background-color: antiquewhite;
  margin: 0;
