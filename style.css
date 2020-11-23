@@ -6,22 +6,39 @@ body,html{
 .nav-bar{
     margin: 0;
 }
-.logo{
+/* js sticky nav bar starts */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: antiquewhite;
+    transition-delay: 500ms;
+  }
+
+  /* js sticky nav bar ends */
+
+  
+.logo,
+.logo-footer{
     float: left;
+    padding: 5px;
 }
-.nav-list ul{
+.nav-list ul,
+.nav-list-footer ul{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;   
 }
-.nav-list li{
-    text-decoration: none;
+.nav-list li,
+.nav-list-footer li{
     text-transform: uppercase;
     list-style: none;
     
 }
-.nav-list a{
+.nav-list a,
+.nav-list-footer a{
     padding: 5px;
+    text-decoration: solid;
 }
 .hero{
     background-image: url("hero-image.jpg") ;
@@ -31,6 +48,12 @@ body,html{
     background-attachment: fixed;
     margin-top: -53px;
 
+}
+.hero a{
+    border: 1px solid;
+    padding: 5px;
+    text-decoration: solid;
+    text-transform: uppercase;
 }
 .hero-title{
     text-align: center;
@@ -48,6 +71,12 @@ body,html{
     flex-direction: row;
     justify-content: center;
 }
+.col-1,
+.col-2,
+.col-3{
+    padding: 10px;
+    margin: 10px;;
+}
 .flexy{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -57,7 +86,15 @@ body,html{
 }
 .flex1{
     border: 2px solid;
-    padding: 5px;
+    padding:100px 5px;
     text-align: center;
     align-items: center;
+    margin: 5px;
+    
+}
+.footer{
+ background-color: antiquewhite;
+ margin: 0;
+ padding: 5px;
+ 
 }
