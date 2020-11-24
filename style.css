@@ -1,4 +1,9 @@
+html{
+    background-image:radial-gradient(white 1px,lightsteelblue 1px);
+  background-size: 20px 20px; 
+}
 body,html{
+    
     height: 100%;
     margin: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -62,6 +67,11 @@ body,html{
     }
     html{
         margin-top: -10px;
+    }
+    .flexy div{
+        display: flex;
+        flex-direction: column;
+        
     }
    
   }
@@ -135,17 +145,24 @@ body,html{
 /* projects/portfolio */
 .flexy{
     display: grid;
-    grid-template-columns: auto auto auto;
-    border: 5px solid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    
     padding: 5px;
     margin: 5%;
+    
+    
 }
 .flex1{
-    border: 2px solid;
-    padding:100px 5px;
+    
+    padding:10px 5px;
     text-align: center;
     align-items: center;
-    margin: 5px;
+    margin: 0 auto;
+
+}
+.flex1 img{
+    width:70%;
+    height: 70%;
 }
 /* Footer */
 
@@ -155,3 +172,10 @@ body,html{
  padding: 5px;
  
 }
+.map {
+    margin:auto ;
+    display: block;
+    align-items: center;
+    height: 100px;
+    width: 30%;
+  }
