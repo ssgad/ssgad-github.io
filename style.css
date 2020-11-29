@@ -6,7 +6,7 @@ body,html{
     
     height: 100%;
     margin: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Poppins', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
 }
 .nav-nav,
@@ -18,8 +18,12 @@ body,html{
 }
 .nav-bar{
     margin: 0;
-    
+    }
+a{
+    color: black;
 }
+
+
 /* js sticky nav bar starts */
 .sticky {
     position: fixed;
@@ -41,13 +45,16 @@ body,html{
 .logo-footer{
     float: left;
     padding: 5px;
+    
 }
 .nav-list ul,
 .nav-list-footer ul{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;   
+    justify-content: flex-end; 
+    margin-top: 20px;  
 }
+
 .nav-list li,
 .nav-list-footer li{
     text-transform: uppercase;
@@ -56,8 +63,8 @@ body,html{
 }
 .nav-list a,
 .nav-list-footer a{
-    padding: 5px;
-    text-decoration: solid;
+    padding:0px 5px;    
+    text-decoration: none;
 }
 /* Responsive mobile- navbar*/
 
@@ -68,11 +75,7 @@ body,html{
     html{
         margin-top: -10px;
     }
-    .flexy div{
-        display: flex;
-        flex-direction: column;
-        
-    }
+ 
    
   }
   @media screen and (max-width:600px){
@@ -176,6 +179,6 @@ body,html{
     margin:auto ;
     display: block;
     align-items: center;
-    height: 100px;
-    width: 30%;
+    height: 140px;
+    width: 50%;
   }

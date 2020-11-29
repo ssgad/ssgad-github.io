@@ -8,17 +8,17 @@
         <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/build/ol.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/css/ol.css">
     </head>
-    <body>
+    <body id="home">
         <!-- Navbar-->
         <div id="navba" class="nav-bar">
             <nav class="nav-nav">
-                <div class="logo">Logo</div>
+                <div class="logo"><a href="#home">Logo</a></div>
                     <div class="nav-list">
                         <ul>
-                            <li><a  href="#">services</a></li>
-                            <li><a  href="#">Portfolio</a></li>
+                            <li><a  href="#services">services</a></li>
+                            <li><a  href="#port">Portfolio</a></li>
                             <li><a  href="#">About</a></li>
-                            <li><a  href="#">Contact</a></li>
+                            <li><a id="show" href="#">Contact</a></li>
                             <a class="icon" onclick="bMenu()">
                                 <i class="fa fa-bars"></i></a>
                          </ul>
@@ -26,18 +26,19 @@
                 </div>
             </nav>
         </div>
+        
         <!--Hero image-->
         <div class="hero">
             <div class="border">
                 <div class="hero-title">
                     <h1>Title</h1>
                     <h3>Text</h3>
-                    <a href="#">Button</a>
+                    <a href="#services">Button</a>
                 </div>
             </div>
         </div>
         <!-- services-->
-        <section class="services">
+        <section class="services" id="services">
             <div class="services-h">
                 <h2 style="font-size: 40px;">our services</h2>
                 <p style="font-size: 28px;">about services</p>
@@ -60,7 +61,7 @@
             </div>
         </section>
         <!--Portfolio-->
-        <section class="port">
+        <section class="port" id="port">
             <div class="flexy">
                 <div class="flex1">
                     <img src="p1.png" >
@@ -95,10 +96,10 @@
              <div id="map" class="map"></div>
                     <div class="nav-list-footer">
                         <ul>
-                            <li><a href=""class="link" href="#">Link 1</a></li>
-                            <li><a href=""class="link" href="#">Link 2</a></li>
-                            <li><a href=""class="link" href="#">Link 3</a></li>
-                            <li><a href=""class="link" href="#">Link 4</a></li>
+                            <li><a href=""class="link" href="#">services</a></li>
+                            <li><a href=""class="link" href="#">Portfolio</a></li>
+                            <li><a href=""class="link" href="#">About</a></li>
+                            <li><a href=""class="link" href="#">Contact</a></li>
                          </ul>
                     </div>
                 </div>
