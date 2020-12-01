@@ -24,6 +24,7 @@ a{
 }
 
 
+
 /* js sticky nav bar starts */
 .sticky {
     position: fixed;
@@ -35,7 +36,7 @@ a{
 
   /* js sticky nav bar ends */
 
-  /* Nav bar */
+  /* -----------Nav bar------------------ */
   @media screen and (min-width:900px ){
 .nav-bar .icon{
     display: none;
@@ -66,7 +67,7 @@ a{
     padding:0px 5px;    
     text-decoration: none;
 }
-/* Responsive mobile- navbar*/
+/* ----------Responsive mobile---------------*/
 
 @media screen and (max-width: 600px) {
     .nav-bar li{
@@ -86,12 +87,17 @@ a{
   }
   
   @media screen and (max-width: 600px) {
-    .nav-bar .responsive {position: relative;}
+    .nav-bar .responsive {
+        position: relative;
+        
+    }
     .nav-bar .responsive .icon {
       position: absolute;
       right: 0;
       top: 0;
     }
+    
+
 }
 .nav-bar .responsive {
     float: none;
@@ -99,7 +105,8 @@ a{
     text-align: left;
 }
 
-/* Hero */
+
+/* ---------Hero------------------------ */
 .hero{
     background-image: url("hero-image.jpg") ;
     height:100%;
@@ -130,7 +137,7 @@ a{
     font-size: 75px;
 }
 
-/* services */
+/* ----------------------services---------------------------------- */
 .services-h{
     text-align: center;
 }
@@ -139,13 +146,29 @@ a{
     flex-direction: row;
     justify-content: center;
 }
+.sr-grid h4{
+    text-align: center;
+}
 .col-1,
 .col-2,
 .col-3{
-    padding: 10px;
-    margin: 10px;;
+    padding: 30px;
+    margin: 30px;;
 }
-/* projects/portfolio */
+@media screen and (max-width: 600px){
+    .sr-grid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+}
+/* ------------projects/portfolio------------------------------ */
+.port h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 3rem;
+}
 .flexy{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -167,7 +190,7 @@ a{
     width:70%;
     height: 70%;
 }
-/* Footer */
+/* -----------------Footer-------------------------------------- */
 
 .footer{
  background-color: antiquewhite;
@@ -181,4 +204,12 @@ a{
     align-items: center;
     height: 140px;
     width: 50%;
+  }
+.map h2{
+    text-align: center;
+}
+  .tw{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
   }
