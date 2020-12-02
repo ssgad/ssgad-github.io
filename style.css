@@ -116,6 +116,12 @@ a{
     margin-top: -53px;
 
 }
+@media screen and (max-width: 600px){
+    .hero{
+        background-image: url("hero-image.jpg");
+        height: 100%;
+    }
+}
 .hero a{
     border: 1px solid;
     padding: 5px;
