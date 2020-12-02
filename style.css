@@ -248,6 +248,13 @@ a{
   .myForm > button {
    grid-column: 2 / 4; 
   }
+  @media screen and (max-width: 600px){
+      .myForm{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+  }
 
 /* -----------------Footer-------------------------------------- */
 
