@@ -205,6 +205,18 @@ a{
     height: 140px;
     width: 50%;
   }
+  @media screen and (max-width: 600px){
+      .map{
+          padding-bottom: 30px;
+      }
+      .logo-footer{
+          display: none;
+      }
+      .tw{
+          margin-top: 10px;
+      }
+      
+  }
 .map h2{
     text-align: center;
 }
